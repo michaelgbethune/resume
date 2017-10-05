@@ -1,0 +1,460 @@
+.blue {
+	color: #111197;
+}
+
+/***************************************
+	C U S T O M   C S S   S T Y L E S
+ ***************************************/
+	
+body {
+	font-family: 'Unica One', sans-serif;
+	border-top: 10px solid #111197;
+	margin: 0;
+	text-transform: uppercase;
+	border-bottom: 10px solid #111197;
+}
+
+p {
+	margin: 0;
+}
+
+hr {
+	margin-bottom: -5px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	text-decoration: underline;
+}
+
+.clear {
+	float: none;
+	clear: both;
+	height: 1px;
+}
+
+.grass {
+	background-color: #cfdd9d;
+	color: #000;
+}
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.heading {
+	font-size: 2.2em;
+	margin-bottom: 20px;
+}
+
+.skillheading {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.break {
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+/***************************************
+			P A G E   T I T L E
+ ***************************************/
+#page-title {
+	margin-right: 50px;
+}
+
+#page-title h1 a {
+	font-family: 'Unica One', sans-serif;
+	color: #111197;
+	font-size: 66px;
+}
+
+#page-title h1 {
+	margin: 0;
+}
+
+/***************************************
+			N A V I G A T I O N
+ ***************************************/
+#menu-links a {
+	color: #000;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#menu-links .grass {
+	margin-right: 20px;
+	width: 180px;
+	text-align: center;
+	padding: 5px 0px;
+	margin-top: 15px;
+}
+
+/***************************************
+		C O N T A C T   I N F O
+ ***************************************/
+.contact,
+.contact a {
+	font-size: 35px;
+	color: #111197;
+	font-weight: bold;
+}
+
+.contact {
+	margin-top: -2px;
+	border-bottom: 1px dashed #716c81;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+
+.contact .left {
+	margin-right: 20px;
+}
+
+.kern {
+	letter-spacing: -5px;
+}
+
+/***************************************
+	  W H O   I   A M   B L O C K S
+ ***************************************/
+.iam {
+	border-right: 1px dashed #716c81;
+	padding: 2% 6% 2% 0;
+	max-width: 50%;
+}
+
+p.iam-one {
+	color: #919dd0;
+	font-size: 3em;
+	line-height: .9em;
+	margin-bottom: 6px;
+}
+
+p.iam-two {
+	color: #cfdd9d;
+	font-size: 2.3em;
+	line-height: .9em;
+	margin-bottom: 20px;
+}
+
+p.iam-three {
+	color: #716c81;
+	font-size: 1em;
+	line-height: 1.2em;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: none;
+}
+
+p.prefix {
+	letter-spacing: -1px;
+}
+
+/***************************************
+	  		E D U C A T I O N
+ ***************************************/
+.edu {
+	margin-left: 60px;
+	padding-top: 40px;
+	color: #fff;
+}
+
+p.year {
+	background-color: #919dd0;
+	max-width: 50px;
+	text-align: center;
+	color: #FFF;
+}
+
+p.degree {
+	background-color: #716c81;
+	padding: 2px 5px;
+	font-size: 1.6em;
+	color: #FFF;
+}
+
+.edu-one {
+	margin-bottom: 30px;
+}
+
+p.school {
+	background-color: #111197;
+	max-width: 79%;
+	padding: 2px 5px;
+	color: #FFF;
+}
+
+/***************************************
+	  		S K I L L S
+ ***************************************/
+#region-one {
+	padding-left: 20px;
+}
+
+.skill p.heading,
+.prof {
+	background-color: #919dd0;
+}
+
+p.tiny {
+	color: #fff;
+	padding-top: 20px;
+}
+
+.prof {
+	width: 60%;
+	height: 43px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.prof-heading {
+	width: 75%;
+	text-align: center;
+}
+
+.skill p.skill-heading {
+	text-align: right;
+	padding: 0px 46px 0px 65px;
+	margin-right: 7px;
+}
+.skill-left {
+	font-size: 1.7em;
+	line-height: .9em;
+	text-align: right;
+	width: 13%;
+	border-right: 2px solid #cfdd9d;
+	padding-right: 25px;
+	padding-top: 10px;
+}
+
+.skill-left p {
+	margin-bottom: 20px;
+}
+
+p.square {
+	float: left;
+	margin-right: 6px;
+	padding: 1px 8px;
+	border: 1px solid #111197;
+}
+
+p.full {
+	background-color: #111197;
+	color: #111197;
+}
+
+p.empty {
+	color: #fff;
+}
+
+.skill-right {
+	padding-left: 40px;
+	padding-top: 11px;
+}
+
+section {
+	padding-top: 50px;
+
+}
+
+.skill-label {
+	font-size: 2.3em;
+	padding-left: 10px;
+}
+
+.skill-list {
+	float: none;
+  clear: both;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: none !important;
+  margin-bottom: 30px;
+  margin-top: 5px;  
+}
+
+.igotskills {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/***************************************
+	  		E X P E R I E N C E 
+ ***************************************/
+p.job-year {
+	background-color: #919dd0;
+	text-align: center;
+	float: left;
+	clear: both;
+	padding: 2px 5px;
+}
+
+p.company {
+	background-color: #716c81;
+	padding: 2px 5px;
+	font-size: 1.6em;
+	float: left;
+	clear: both;
+}
+
+p.title {
+	background-color: #111197;
+	padding: 2px 5px;
+	float: left;
+	clear: both;
+}
+
+ul.description,
+p.description {
+	float: none;
+	clear: both;
+	color: #000;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: none !important;
+	width: 88%;
+	padding-top: 10px;
+}
+
+p.description {
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+ul.description a,
+p.description a,
+.my-bio a {
+	color: #919dd0;
+}
+
+.job {
+	color: #fff;
+	border-bottom: 2px solid #cfdd9d;
+	width: 95%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.mobile.job {
+	border-bottom:none;
+}
+.lines p {
+	font-size: 1.6em;
+	padding-top: 8px;
+}
+
+.lines {
+	margin-left: 25px;
+	width: 78%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#exp-header {
+	border-bottom: 1px solid #716c81;
+	color: #cfdd9d;
+	max-height: 40px;
+	border-top: 1px dashed #716c81;
+	margin-top: 40px;
+	padding: 5px 0px 10px 10px
+}
+
+#exp-header .heading {
+	padding: 0;
+}
+
+#additional {
+	padding-top: 20px;
+	padding-left: 40px;
+}
+
+.other-header {
+	font-family: 'Sacramento', cursive;
+	text-transform: none;
+	font-size: 2.3em;
+	color: #111197;
+}
+
+.item p {
+	float: left;
+	margin-right: 20px;
+	font-size: 1.7em;
+	letter-spacing: -1px;
+	font-weight: bold;
+	color: #cfdd9d;
+}
+
+.item {
+	clear: both;
+}
+
+section#experience {
+	margin-bottom: 60px;
+}
+
+/***************************************
+	  			B I O
+ ***************************************/
+.bio-header {
+	padding-top: 20px;
+}
+
+.my-bio {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: none;
+	margin-top: 20px;
+}
+
+section#bio {
+	margin-bottom: 60px;
+}
+
+
+.back-to-top {
+	font-size: 2em;
+	bottom: 0;
+	position: fixed;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	display: none;
+	color: #919dd0;
+}
+
+.backup a {
+	color: #111197;
+}
+
+.printable a {
+	color: #fff;
+}
+
+.printable {
+	background-color: #111197;
+	padding: 5px 10px;
+	max-width: 125px;
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+	.heading {
+		font-size: 2.2em;
+	}
+	p.iam-one {
+		font-size: 2.2em;
+	}
+	
+	p.iam-two {
+		font-size: 1.9em;
+	}
+	p.degree {
+		font-size: 1.1em;
+	}
+}
